@@ -1,0 +1,28 @@
+
+2) +-*/
+
+#include <stdio.h>
+
+int main ()
+{
+    int a, b;
+    
+    printf("enter a val =");
+    scanf("%d",&a);
+    
+    printf("enter b val =");
+    scanf("%d",&b);
+    
+    if(a,b)
+    {
+        printf("sum = %d\n",a+b);
+        printf("sum = %d\n",a-b);
+        printf("sum = %d\n",a*b);
+        printf("sum = %d\n",a/b);
+    }else
+    {
+        printf("this not number");
+    }
+ 
+    return 0;
+}

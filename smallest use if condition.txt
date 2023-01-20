@@ -1,0 +1,32 @@
+  //C programme to find the smallest number among three integer numbers (using if condition and relational operators).
+
+#include <stdio.h>
+
+int main ()
+{
+    int x ,y , z;
+    
+    printf("enter x val =");
+    scanf("%d",&x);
+    
+    printf("enter y val =");
+    scanf("%d",&y);
+    
+    printf("enter z val =");
+    scanf("%d",&z);
+  
+   if(x<y&&x<z)
+   {
+       printf("x is smailest number among three integer number ");
+   }
+   else if(y<x&&y<z)
+   {
+       printf("y is smailest number among three integer number" );
+   }
+   else if(z<x&&z<y)
+   {
+       printf("z is smailest number among three integer number ");
+   }
+     return 0;
+     
+}

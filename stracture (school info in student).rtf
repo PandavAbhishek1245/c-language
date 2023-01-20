@@ -1,0 +1,378 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /**************************************schoool information in sudent p=1***********************/ \
+\
+#include <stdio.h>\
+#include <string.h>\
+\
+struct myschool\
+\{ \
+  char name[20];\
+  char schoolname[50];\
+  int standard;\
+  char divison;\
+  int rollnumber;\
+  \
+\};\
+\
+int main() \
+\{   \
+    int rollnumber;\
+    \
+    printf("enter rollnumber = ");\
+    scanf("%d",&rollnumber); \
+    \
+  switch(rollnumber)\
+  \{\
+      struct myschool school1; \
+      case 1:\
+      strcpy(school1.name,"dhaval");\
+      strcpy(school1.schoolname,"i c gandhi");\
+      school1.standard=12;\
+      school1.divison='a';\
+      school1.rollnumber=1;\
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school1.name,school1.schoolname,school1.standard,school1.divison,school1.rollnumber);\
+      break ;\
+      \
+      struct myschool school2; \
+      case 2:\
+      strcpy(school2.name,"abhishek");\
+      strcpy(school2.schoolname,"i.p savani school");\
+      school2.standard=12;\
+      school2.divison='b';\
+      school2.rollnumber=2;\
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school2.name,school2.schoolname,school2.standard,school2.divison,school2.rollnumber);\
+      break ;\
+        \
+      struct myschool school3; \
+      case 3:\
+      strcpy(school3.name,"dharmik");\
+      strcpy(school3.schoolname,"suman high school");\
+      school3.standard=12;\
+      school3.divison='c';\
+      school3.rollnumber=3;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school3.name,school3.schoolname,school3.standard,school3.divison,school3.rollnumber);\
+       break ; \
+       \
+       struct myschool school4; \
+      case 4:\
+      strcpy(school4.name,"monik");\
+      strcpy(school4.schoolname,"kruti school");\
+      school4.standard=12;\
+      school4.divison='d';\
+      school4.rollnumber=4;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school4.name,school4.schoolname,school4.standard,school4.divison,school4.rollnumber);\
+       break ; \
+       \
+      struct myschool school5; \
+      case 5:\
+      strcpy(school5.name,"jay");\
+      strcpy(school5.schoolname,"kailash school");\
+      school5.standard=12;\
+      school5.divison='e';\
+      school5.rollnumber=5;\
+  \
+      printf("name : %s\\n schoolname : %s\\n standard : %d\\n divison : %c\\n roll : %d\\n ",school5.name,school5.schoolname,school5.standard,school5.divison,school5.rollnumber);\
+       break ; \
+       \
+      struct myschool school6; \
+      case 6:\
+      strcpy(school6.name,"shailesh");\
+      strcpy(school6.schoolname,"kruti school");\
+      school6.standard=12;\
+      school6.divison='f';\
+      school6.rollnumber=6;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school6.name,school6.schoolname,school6.standard,school6.divison,school6.rollnumber);\
+       break ; \
+ \
+     struct myschool school7; \
+      case 7:\
+      strcpy(school7.name,"chirag");\
+      strcpy(school7.schoolname,"suman school");\
+      school7.standard=12;\
+      school7.divison='g';\
+      school7.rollnumber=7;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school7.name,school7.schoolname,school7.standard,school7.divison,school7.rollnumber);\
+      break ; \
+ \
+     struct myschool school8; \
+      case 8:\
+      strcpy(school8.name,"bhavik");\
+      strcpy(school8.schoolname,"p.m.bhagat high school");\
+      school8.standard=12;\
+      school8.divison='h';\
+      school8.rollnumber=8;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school8.name,school8.schoolname,school8.standard,school8.divison,school8.rollnumber);\
+      break ; \
+ \
+      struct myschool school9; \
+      case 9:\
+      strcpy(school9.name,"ankit");\
+      strcpy(school9.schoolname,"p.m.bhagat high school");\
+      school9.standard=12;\
+      school9.divison='j';\
+      school9.rollnumber=9;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school9.name,school9.schoolname,school9.standard,school9.divison,school9.rollnumber);\
+      break ; \
+ \
+     struct myschool school10; \
+      case 10:\
+      strcpy(school10.name,"navneet");\
+      strcpy(school10.schoolname,"p.m.bhagat high school");\
+      school10.standard=12;\
+      school10.divison='k';\
+      school10.rollnumber=10;\
+  \
+      printf("name : %s \\n school name : %s\\n standard : %d\\n divison : %c\\n  roll : %d\\n ",school10.name,school10.schoolname,school10.standard,school10.divison,school10.rollnumber);\
+      break ; \
+ \
+  \}\
+\
+  \
+  return 0;\
+\}\
+\
+\
+/*************************schoool information in sudent p=2********************************************/ \
+#include <stdio.h>\
+#include <string.h>\
+\
+struct myschool\
+\{\
+    char name[20];\
+    char schoolname[50];\
+    int standard;\
+    char divison;\
+    int rollnumber;\
+\};\
+\
+int main()\
+\{\
+    int rollnumber;\
+    char divison;\
+    \
+    printf("enter rollnumber =");\
+    scanf("%d",&rollnumber);\
+    \
+    printf("enter divison = ");\
+    scanf(" %c",&divison);\
+    \
+   if(divison == 'a'&&rollnumber == 1)\
+    \{\
+        struct myschool school1;\
+        \
+         strcpy(school1.name,"dhaval");\
+         strcpy(school1.schoolname,"suman high school");\
+         school1.standard = 12;\
+         school1.divison = 'a';\
+         school1.rollnumber = 1;\
+         \
+         printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n ",school1.name,school1.schoolname,school1.standard,school1.divison,school1.rollnumber);\
+        \
+    \}  \
+    else if(divison == 'b'&&rollnumber == 2)\
+    \{\
+        struct myschool school2;\
+        \
+         strcpy(school2.name,"vivek");\
+         strcpy(school2.schoolname,"suman high school");\
+         school2.standard = 12;\
+         school2.divison = 'b';\
+         school2.rollnumber = 2;\
+         \
+         printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n ",school2.name,school2.schoolname,school2.standard,school2.divison,school2.rollnumber);\
+    \} \
+    \
+    else if(divison == 'c'&&rollnumber == 3)\
+    \{\
+        struct myschool school3;\
+        \
+         strcpy(school3.name,"keval");\
+         strcpy(school3.schoolname,"suman high school");\
+         school3.standard = 12;\
+         school3.divison = 'c';\
+         school3.rollnumber = 3;\
+         \
+         printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n ",school3.name,school3.schoolname,school3.standard,school3.divison,school3.rollnumber);\
+    \} \
+    \
+    else if(divison =='d'&& rollnumber == 4)\
+    \{\
+        struct myschool school4;\
+        \
+        strcpy(school4.name,"piyush");\
+        strcpy(school4.schoolname,"suman school");\
+        school4.standard = 12;\
+        school4.divison = 'd';\
+        school4.rollnumber = 4;\
+        \
+        printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n",school4.name,school4.schoolname,school4.standard,school4.divison,school4.rollnumber);\
+    \}\
+    \
+     else if(divison =='e'&& rollnumber == 5)\
+    \{\
+        struct myschool school5;\
+        \
+        strcpy(school5.name,"satish");\
+        strcpy(school5.schoolname,"i c gandhi school");\
+        school5.standard = 12;\
+        school5.divison = 'e';\
+        school5.rollnumber = 5;\
+        \
+        printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n",school5.name,school5.schoolname,school5.standard,school5.divison,school5.rollnumber);\
+    \}\
+    \
+     else if(divison =='f'&& rollnumber == 6)\
+    \{\
+        struct myschool school6;\
+        \
+        strcpy(school6.name,"ashish");\
+        strcpy(school6.schoolname,"i c gandhi school");\
+        school6.standard = 12;\
+        school6.divison = 'f';\
+        school6.rollnumber = 6;\
+        \
+        printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n",school6.name,school6.schoolname,school6.standard,school6.divison,school6.rollnumber);\
+    \}\
+    \
+     else if(divison =='g'&& rollnumber == 7)\
+    \{\
+        struct myschool school7;\
+        \
+        strcpy(school7.name,"mayur");\
+        strcpy(school7.schoolname,"i c gandhi school");\
+        school7.standard = 12;\
+        school7.divison = 'g';\
+        school7.rollnumber = 7;\
+        \
+        printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n",school7.name,school7.schoolname,school7.standard,school7.divison,school7.rollnumber);\
+    \}\
+    \
+     else if(divison =='h'&& rollnumber == 8)\
+    \{\
+        struct myschool school8;\
+        \
+        strcpy(school8.name,"kartik");\
+        strcpy(school8.schoolname,"i c gandhi school");\
+        school8.standard = 12;\
+        school8.divison = 'h';\
+        school8.rollnumber = 8;\
+        \
+        printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison = %c\\n rollnumber = %d\\n",school8.name,school8.schoolname,school8.standard,school8.divison,school8.rollnumber);\
+    \}\
+    \
+    else if(divison =='i'&& rollnumber == 9)\
+    \{\
+        struct myschool school9;\
+        \
+        strcpy(school9.name,"abhishek");\
+        strcpy(school9.schoolname,"suman high school");\
+        school9.standard = 12;\
+        school9.divison = 'i';\
+        school9.rollnumber = 9;\
+        \
+        printf("name = %s\\n schoolname =%s\\n standard = %d\\n divison = %c\\n rollnumber %d\\n",school9.name,school9.schoolname,school9.standard,school9.divison,school9.rollnumber);\
+    \}\
+\}\
+\
+/**************************************schoool information in sudent p=3***********************/ \
+\
+#include <stdio.h>\
+#include <string.h>\
+\
+struct myschool\
+\{ \
+  char name[20];\
+  char schoolname[50];\
+  int standard;\
+  char divison;\
+  int rollnumber;\
+  \
+\};\
+\
+int main() \
+\{   \
+    struct myschool school1[20];\
+    \
+    for(int i=0; i<10; i++)\
+   \{    \
+         printf("\\nenter your name = ");\
+         scanf("%s",school1[i].name);\
+       \
+        printf("\\nenter your school = ");\
+        scanf("%s",school1[i].schoolname);\
+        \
+        printf("\\nenter standard = ");\
+        scanf("%d",&school1[i].standard);\
+        \
+        printf("\\nenter divison = ");\
+        scanf(" %c",&school1[i].divison);\
+        \
+        printf("\\nenter rollnumber = ");\
+        scanf("%d",&school1[i].rollnumber); \
+   \}\
+  \
+  for(int i=0; i<10; i++)\
+  \{\
+      printf("name = %s\\n schoolname = %s\\n standard = %d\\n divison %c\\n rollnumber = %d\\n ",school1[i].name,school1[i].schoolname,\
+      school1[i].standard,school1[i].divison,school1[i].rollnumber);\
+  \}\
+\
+  \
+  return 0;\
+\}\
+\
+\
+/*************2 dimension array with structure********************/\
+\
+#include <stdio.h>\
+#include <string.h>\
+\
+struct myschool\
+\{\
+    int rollnumber;\
+    int standard;\
+    \
+\};\
+\
+int main()\
+\{   \
+    int i,j;\
+    \
+    struct myschool s1[2][2];\
+    \
+    for(i=0; i<2; i++)\
+    \{   \
+        for(j=0; j<2; j++)\
+        \{\
+           printf("enter value = ");\
+           scanf("\\n%d",&s1[i][j].rollnumber);\
+           \
+           printf("enter value = ");\
+           scanf("\\n%d",&s1[i][j].standard);\
+        \}\
+    \}\
+    \
+    for(i=0; i<2; i++)\
+    \{   \
+        for(j=0; j<2; j++)\
+        \{\
+           \
+          printf("\\n%d",s1[i][j].rollnumber);\
+          printf("\\n%d",s1[i][j].standard);\
+        \}\
+    \}\
+    return 0;\
+\}\
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+   int i;
+   
+   printf("enter number = ");
+   scanf("%d",&i);
+   
+   if(i % 4 == 0 || i % 400 == 0 && i % 100 != 0)
+   {
+       printf("this is leap year");
+   }
+   else
+   {
+       printf("this not leap year");
+   }
+    return 0;
+}

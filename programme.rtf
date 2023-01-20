@@ -1,0 +1,292 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww37900\viewh18100\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1) if condition use arithmetic operation\
+\
+#include <stdio.h>\
+\
+int main ()\
+\
+\{\
+    int a, b, operation;\
+    \
+    printf("enter a val =");\
+    scanf("%d",&a);\
+    \
+    printf("enter b val =");\
+    scanf("%d",&b);\
+    \
+    printf("plz enter value between 1 to 4 =");\
+    scanf("%d",&operation);\
+    \
+    if (operation == 1)\
+    \{\
+        printf("adition = %d\\n",a+b);\
+        \
+    \}\
+    else if(operation == 2 )\
+    \{ \
+        printf("subtraction =%d\\n",a-b);\
+    \}\
+    else if(operation == 3)\
+    \{\
+        printf("multiplication =%d\\n",a*b);\
+    \}\
+    else if(operation== 4)\
+    \{\
+        printf("divison = %d\\n",a/b);\
+    \}\
+    else \
+    \{\
+        printf("this not number");\
+    \}\
+ \
+    return 0;\
+\}\
+\
+\
+\
+2).   If conditions use logical operation\
+\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+   int a,b,c,d,e;\
+   \
+   printf("enter a val =");\
+   scanf("%d",&a);\
+   \
+   printf("enter b val =");\
+   scanf("%d",&b);\
+   \
+   printf("enter c val =");\
+   scanf("%d",&c);\
+   \
+   printf("enter d val =");\
+   scanf("%d",&d);\
+   \
+   printf("enter e val =");\
+   scanf("%d",&e);\
+  \
+   \
+   if((a>c) || (a< b & d) && (a = e))\
+   \{\
+       printf("a is greater than c\\n");\
+       printf("a is lessthan b and d\\n");\
+       printf("a is equal e\\n");\
+       \
+   \}\
+  \
+\
+    return 0;\
+\}\
+\
+3) \
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+   int a,b,c;\
+   \
+   printf("enter a val =");\
+   scanf("%d",&a);\
+   \
+   printf("enter b val =");\
+   scanf("%d",&b);\
+   \
+   printf("enter c val =");\
+   scanf("%d",&c);\
+ \
+   \
+   if((a>b && a<c) || (a<b && a<c))\
+   \{\
+      printf("right");\
+       \
+   \}\
+   else\
+   \{\
+      printf("wrong"); \
+   \}\
+\
+  \
+\
+    return 0;\
+\}\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx37893\pardirnatural\partightenfactor0
+\cf0 4)\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+   int a,b,c;\
+   \
+   printf("enter a val =");\
+   scanf("%d",&a);\
+   \
+   printf("enter b val =");\
+   scanf("%d",&b);\
+   \
+   printf("enter c val =");\
+   scanf("%d",&c);\
+ \
+   \
+   if((a == b && a<=c) || (a<=b))\
+   \{\
+      printf("right");\
+       \
+   \}\
+   else\
+   \{\
+      printf("wrong"); \
+   \}\
+\
+  \
+\
+    return 0;\
+\}\
+\
+5)\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+   int a,b,c;\
+   \
+   printf("enter a val =");\
+   scanf("%d",&a);\
+   \
+   printf("enter b val =");\
+   scanf("%d",&b);\
+   \
+   printf("enter c val =");\
+   scanf("%d",&c);\
+ \
+   \
+   if((a>=b || a<=c) && (a>b))\
+   \{\
+      printf("right");\
+       \
+   \}\
+   else\
+   \{\
+      printf("wrong"); \
+   \}\
+\
+  \
+\
+    return 0;\
+\}\
+\
+6). /*******************Find maximum of two numbers********************************************/\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+    int num1, num2;\
+\
+    \
+    printf("Enter frist number = ");\
+    scanf("%d", &num1);\
+    \
+    printf("enter second number = ");\
+    scanf("%d",&num2);\
+\
+    \
+    if(num1 > num2)\
+    \{\
+        printf("%d is maximum", num1);        \
+    \}\
+    \
+    if(num2 > num1)\
+    \{\
+        printf("%d is maximum", num2);\
+    \}\
+\
+    if(num1 == num2)\
+    \{\
+        printf("Both are equal");\
+    \}\
+\
+    return 0;\
+\}\
+    \
+\
+6) /*******************Find maximum of three numbers********************************************/\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+    int num1, num2, num3;\
+\
+    \
+    printf("Enter frist number = ");\
+    scanf("%d", &num1);\
+    \
+    printf("enter second number = ");\
+    scanf("%d",&num2);\
+    \
+    printf("enter third number =");\
+    scanf("%d",&num3);\
+\
+    \
+    if((num1 > num2) && (num1 > num3))\
+    \{\
+        printf("%d is maximum", num1);        \
+    \}\
+    \
+    if((num2 > num1) &&(num2 > num3))\
+    \{\
+        printf("%d is maximum", num2);\
+    \}\
+\
+    if((num3 > num1) &&(num3 > num2))\
+    \{\
+        printf("%d is maximum", num3);\
+    \}\
+\
+    return 0;\
+\}\
+\
+7)  alphabet , digit, character\
+\
+#include <stdio.h>\
+\
+int main()\
+\{\
+    char ch;\
+    \
+    printf("Enter any number = ");\
+    scanf("%c", &ch);\
+    \
+\
+    if(ch >= 'a' && ch <= 'z') \
+    \{\
+        printf("number is alphabet ");\
+    \}\
+    \
+    else if (ch >= '0' && ch <= '9')\
+    \{\
+        printf("number is digit ");\
+    \}\
+    else \
+    \{\
+        printf("number is special character ");\
+    \}\
+\
+    return 0;\
+\}\
+\
+\
+}
